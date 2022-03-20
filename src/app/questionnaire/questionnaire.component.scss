@@ -1,5 +1,6 @@
-$base-color: #2c9c8a;
-$background: #200e38;
+$base-color: #090019;
+$background: #e6e2ebe5;
+
 
 .formulaire{
   display: flex;
@@ -7,15 +8,10 @@ $background: #200e38;
   align-items: center;
   background-color: $background;
   color : $base-color;
-  margin: 10em;
-  padding: 10em;
+  margin: 3em;
+  padding: 5em;
 }
 
 li {
   list-style: none;
-}
-
-img{
-  width: 10%;
-  height: auto;
 }

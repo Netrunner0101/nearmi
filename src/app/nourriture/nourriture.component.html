@@ -1,0 +1,24 @@
+
+<mat-card class="gridnourriture">
+  <mat-card-title> <h2> Le type de nourriture  </h2> </mat-card-title>
+  <form>
+      <mat-grid-list class="nourriture" cols="3" rowHeight="3:1">
+        <mat-grid-tile>
+          <mat-checkbox class="fast" > Fast Food </mat-checkbox>
+          <img src="assets\icons\fastfood.png" >
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-checkbox class="restaurant" > Restaurant </mat-checkbox>
+          <img src="assets\icons\restaurant.png">
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-checkbox class="gastronomique" > Gastronomique </mat-checkbox>
+          <img src="assets\icons\gastornomique.png">
+        </mat-grid-tile>
+
+      </mat-grid-list>
+      <button type="submit" (click)="btnScenario()"> Suivant </button>
+  </form>
+</mat-card>
+
+

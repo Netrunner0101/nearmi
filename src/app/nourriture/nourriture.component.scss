@@ -1,8 +1,7 @@
-$base-color: #2c9c8a;
-$background: #200e38;
+$base-color: #090019;
+$background: #e6e2ebe5;
 
-.formulaire{
-  display: flex;
+.gridnourriture{
   justify-content: center;
   align-items: center;
   background-color: $background;
@@ -11,11 +10,7 @@ $background: #200e38;
   padding: 10em;
 }
 
-li {
-  list-style: none;
-}
-
-img{
-  width: 10%;
-  height: auto;
+img {
+  height: 75px;
+  padding: 1em;
 }

@@ -1,0 +1,23 @@
+$base-color: #090019;
+$background: #e6e2ebe5;
+
+
+.gridpersonne{
+  justify-content: center;
+  align-items: center;
+  background-color: $background;
+  color : $base-color;
+  margin: 10em;
+  padding: 10em;
+}
+
+img {
+  height: 12em;
+  margin: 1em;
+  padding: 1em;
+}
+
+.subm{
+  justify-content: center;
+  align-items: center;
+}

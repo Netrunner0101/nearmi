@@ -1,0 +1,27 @@
+
+<mat-card class="gridpersonne">
+  <mat-card-title> <h2> Nombre de personnes   </h2> </mat-card-title>
+  <form>
+
+    <mat-grid-list class="nbpersonnes" cols="2" rowHeight="2:1">
+      <mat-grid-tile>
+        <mat-checkbox class="seul" > Seul </mat-checkbox>
+        <img src="assets\icons\solo.png" >
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-checkbox class="couple" > Couple </mat-checkbox>
+        <img src="assets\icons\couple.png">
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-checkbox class="famille" > Famille  </mat-checkbox>
+        <img src="assets\icons\famille.png">
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-checkbox class="goupe" > Groupe </mat-checkbox>
+        <img src="assets\icons\groupe.png ">
+      </mat-grid-tile>
+    </mat-grid-list>
+
+    <button class="subm" type="submit" (click)="btnAge()"> Suivant </button>
+  </form>
+</mat-card>

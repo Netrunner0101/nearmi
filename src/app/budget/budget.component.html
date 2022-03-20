@@ -1,0 +1,28 @@
+
+<mat-card class="formulaire">
+
+  <mat-card-title> <h2>  Budget pour la journée   </h2> </mat-card-title>
+  <form>
+    <section class="budget">
+      <h2> Taille du Budget </h2>
+<!--
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label> Budget en € </mat-label>
+          <input matInput placeholder="Ex. 50000€" value="50000 ">
+        </mat-form-field> -->
+
+        <mat-slider
+        thumbLabel
+        [displayWith]="formatLabel"
+        tickInterval="1000"
+        step="1"
+        min="0"
+        max="10000"
+        aria-label="units">  </mat-slider>
+
+      <button type="submit" (click)="btnDepart()"> Suivant </button>
+    </section>
+  </form>
+
+</mat-card>
+
